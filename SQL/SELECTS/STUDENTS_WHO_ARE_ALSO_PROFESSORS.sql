@@ -1,4 +1,5 @@
 /* SCRIPT BY EDWARD STOEVER OF MARIADB SUPPORT */
+use unificticio;
 
 select PERSONS.pers_id, pers_first_name, pers_middle_name, pers_last_name, prof_principal_discipline, stud_academic_field
 from PERSONS 
